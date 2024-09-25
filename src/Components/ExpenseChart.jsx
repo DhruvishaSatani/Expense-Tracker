@@ -70,7 +70,7 @@ const ExpenseChart = () => {
   };
 
   return (
-    <div className="container mx-auto p-3 pt-4 text-center">
+    <div className="container   mx-auto p-3 pt-4 text-center">
       <h1 className="text-2xl font-bold mb-4">Expense Tracker Chart</h1>
       <div className="bg-white p-6 rounded shadow-md w-[1000px] h-[800px]">
         <Bar data={data} options={options}  />

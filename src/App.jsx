@@ -37,8 +37,11 @@ function App() {
           
       {/* <ExpenseForm /> */}
       
-         <ExpenseTracker  className='' onAddExpense={handleAddExpense}/>
-         <ExpenseChart/>
+          <div className="flex gap-2">
+          <ExpenseTracker  className='' onAddExpense={handleAddExpense}/>
+          <ExpenseChart/> 
+          </div>
+        
          
 
          <h2 className="text-xl font-semibold mb-2 text-center py-4">Expense History</h2>
